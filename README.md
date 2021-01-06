@@ -6,7 +6,7 @@ My Solutions for Machine Learning for Bioinformatics Course (Graduate Course) As
 The project is about the prediction of binding between proteins and drugs. In phase 1, this is done by machine learning algorithms (XGBoost).
 
 
-In phase 2,  the problem was to improve the limitations of the well-known literature model DeepDTA. By reading the state-of-the-art paper in the literature GraphDTA, which takes advantage of Graph Neural Networks, I modified the architecture of Deep-DTA by implementing LSTM to learn protein sequence (as DeepDTA doesn't take the sequential nature of target amino-acid structures into account) and graph convolutional network to learn drug structure. Also, I applied some interpretability methods to analyze the network learned on data and got valuable insights that the learned model overly dependent on the drugs without a reasonable focus on the proteins. 
+In phase 2,  the problem was to improve the limitations of the well-known model DeepDTA. By reading the state-of-the-art paper GraphDTA, which takes advantage of Graph Neural Networks, I modified DeepDTA by implementing LSTM to learn protein sequence (as DeepDTA doesn't take the sequential nature of target amino-acid structures into account) and graph convolutional network to learn drug structure. Also, I applied some interpretability methods to analyze the network learned on data and got valuable insights that the learned model is overly dependent on the drugs without a reasonable focus on the proteins. 
 
 
 My literature review on the topic consisted:
@@ -32,7 +32,7 @@ Covered topics:
 ### HW5
 Covered topics:
 + Hidden Markov Models
-+ Deep Learning Basics (Also a more rigorous view on Batch Normalization by the pape: **How Does Batch Normalization Help Optimization?** [(arxiv)](https://arxiv.org/pdf/1805.11604.pdf) and SGD Optimization in Over-parameterized Network by: **A Convergence Theory for Deep Learning via Over-Parameterization** [(arxiv)](https://arxiv.org/pdf/1811.03962.pdf))
++ Deep Learning Basics (Also a more rigorous view on Batch Normalization by the paper: **How Does Batch Normalization Help Optimization?** [(arxiv)](https://arxiv.org/pdf/1805.11604.pdf) and SGD Optimization in Over-parameterized Network by: **A Convergence Theory for Deep Learning via Over-Parameterization** [(arxiv)](https://arxiv.org/pdf/1811.03962.pdf))
 + Universal Approximation of Neural Networks 
 + MLP Implementation from Scratch
 + Reading and Implementation of ResNet Paper with PyTorch.[(arxiv)](https://arxiv.org/pdf/1512.03385.pdf) Also a more rigorous view on ResNet by the papers: **Visualizing the Loss Landscape of Neural Nets** [(arxiv)](https://arxiv.org/pdf/1712.09913.pdf) and **Deep Residual Networks, Deep Learning Gets Way Deeper** by Kaiming He.[(link)](https://icml.cc/2016/tutorials/icml2016_tutorial_deep_residual_networks_kaiminghe.pdf)
